@@ -7,7 +7,12 @@
         window.voiceflow.chat.load({
           verify: { projectID: '666835e2cc15eb142351c854' },
           url: 'https://general-runtime.voiceflow.com',
-          versionID: 'production'
+          versionID: 'production',
+render: {
+	mode: 'embedded',
+	target: document.body,
+},
+autostart: false
         });
       }
       v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
