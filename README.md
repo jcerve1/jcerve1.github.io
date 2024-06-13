@@ -1,5 +1,4 @@
 <body>
-<h1>HELLO world 123 456</h1>
 <script type="text/javascript">
   (function(d, t) {
       var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
